@@ -1,0 +1,29 @@
+catlog= CSVCatolog...,cnx=<pymysql.connections.Connection object at 0x10c917390>
+
+result= {
+  "table_name": "batting",
+  "file_name": "/Users/mac/Desktop/database/Bonus_Outline/Batting.csv"
+}
+
+result= {
+  "table_name": "people",
+  "file_name": "/Users/mac/Desktop/database/Bonus_Outline/people.csv"
+}
+
+c_def {
+  "column_name": "PlayerID",
+  "column_type": "text",
+  "not_null": true
+}
+
+i_def {
+  "table_name": "Cool",
+  "index_name": "people",
+  "index_type": "PRIMARY",
+  "column": [
+    "PlayerID",
+    "teamID",
+    "yearID",
+    "stint"
+  ]
+}

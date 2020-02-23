@@ -1,0 +1,43 @@
+In RDBDatatable
+I implement those functions:
+1)get_row_count()
+  Just pass "select count(*) from "+table name to sql to get the answer
+2)get_primary_key_columns()
+  Pass 'show keys from '+self._full_table_name+" where Key_name='PRIMARY'" to sql, and get column_names from the dictionary just get.
+
+
+In data_table_adaptor
+I implement those functions:
+1)get_databases()
+  Pass "show databases" to sql to get the answer
+2)get_tables(dbname)
+  Pass "show tables from "+dbname to sql to get the answer
+
+
+
+In app.py
+
+I implement those functions:
+
+1)dbs()
+  Use the method get_databases() in data_table_adaptor
+  Use GET in postman
+
+2)tbls(dbname)
+  Use the method:get_tables(dbname) in data_table_adaptor
+  Use GET in postman
+
+3)resource_by_id(dbname, resource, primary_key)
+  Firstly, I finished the GET part, pass a primary key value in postman, use find_by_primary_key in RDBDatatable to get the answer 
+  Secondly, I finished the DELETE part, pass a primary key value in postman, use delete_by_key in RDBDatatable to delete the row matched the value.
+  Thirdly, I finished the PUT part, I put the update_template in the body part in postman, then I zip key with key columns into a template, then use update_by_template in RDBDatatable.
+
+4)get_resource(dbname, resource_name)
+  Firstly, I finished the GET part, put a template in the body part in postman, then use update_by_template in RDBDatatable.
+  Secondly, I finished the POST part, put a template in the body part in postman, then use insert in RDBDatatable.
+
+
+
+I think HW2 is easier than HW1 because it has a much clearer specification, thanks to professor and all TAs.
+
+By the way I tested all the functions and put all images in to pdf file 

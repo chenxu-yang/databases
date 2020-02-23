@@ -1,0 +1,18 @@
+insert 2 raws:chenxu,yang
+
+find chenxu
+[{'playerID': 'burkech01', 'birthYear': '1980', 'birthMonth': '3', 'birthDay': '11', 'birthCountry': 'USA', 'birthState': 'KY', 'birthCity': 'Louisville', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'Chris', 'nameLast': 'Burke', 'nameGiven': 'Christopher Allen', 'weight': '180', 'height': '71', 'bats': 'R', 'throws': 'R', 'debut': '2004-07-04', 'finalGame': '2009-06-07', 'retroID': 'burkc001', 'bbrefID': 'burkech01'}]
+[{'playerID': 'cy2554', 'birthYear': None, 'birthMonth': None, 'birthDay': None, 'birthCountry': None, 'birthState': None, 'birthCity': None, 'deathYear': None, 'deathMonth': None, 'deathDay': None, 'deathCountry': None, 'deathState': None, 'deathCity': None, 'nameFirst': None, 'nameLast': 'chenxu', 'nameGiven': None, 'weight': '10000000', 'height': None, 'bats': None, 'throws': None, 'debut': None, 'finalGame': None, 'retroID': None, 'bbrefID': None}]
+()
+update yang int to yangcx
+
+delete chenxu
+
+1
+
+
+find chenxu, yangcx,1980
+[{'playerID': 'burkech01', 'birthYear': '1980', 'birthMonth': '3', 'birthDay': '11', 'birthCountry': 'USA', 'birthState': 'KY', 'birthCity': 'Louisville', 'deathYear': '', 'deathMonth': '', 'deathDay': '', 'deathCountry': '', 'deathState': '', 'deathCity': '', 'nameFirst': 'Chris', 'nameLast': 'Burke', 'nameGiven': 'Christopher Allen', 'weight': '180', 'height': '71', 'bats': 'R', 'throws': 'R', 'debut': '2004-07-04', 'finalGame': '2009-06-07', 'retroID': 'burkc001', 'bbrefID': 'burkech01'}]
+()
+[{'playerID': 'dlzxycx', 'birthYear': None, 'birthMonth': None, 'birthDay': None, 'birthCountry': None, 'birthState': None, 'birthCity': None, 'deathYear': None, 'deathMonth': None, 'deathDay': None, 'deathCountry': None, 'deathState': None, 'deathCity': None, 'nameFirst': None, 'nameLast': 'yangcx', 'nameGiven': None, 'weight': '1999900', 'height': None, 'bats': None, 'throws': None, 'debut': None, 'finalGame': None, 'retroID': None, 'bbrefID': None}, {'playerID': 'dlzxycx', 'birthYear': None, 'birthMonth': None, 'birthDay': None, 'birthCountry': None, 'birthState': None, 'birthCity': None, 'deathYear': None, 'deathMonth': None, 'deathDay': None, 'deathCountry': None, 'deathState': None, 'deathCity': None, 'nameFirst': None, 'nameLast': 'yangcx', 'nameGiven': None, 'weight': '1999900', 'height': None, 'bats': None, 'throws': None, 'debut': None, 'finalGame': None, 'retroID': None, 'bbrefID': None}]
+

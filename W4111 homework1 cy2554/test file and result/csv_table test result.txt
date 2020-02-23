@@ -1,0 +1,29 @@
+DEBUG:root:CSVDataTable.__init__: data = {
+  "table_name": "people",
+  "connect_info": {
+    "directory": "/Users/mac/Documents/GitHub/w4111-Databases/HW_Assignments/HW1_Template/Data/Baseball",
+    "file_name": "People.csv"
+  },
+  "key_columns": null,
+  "debug": true
+}
+insert  "playerID":"cy2554" 
+
+find insert tmp:"playerID":"cy2554" 
+
+the match result is [{'playerID': 'cy2554'}]
+delete "playerID":"cy2554"
+
+DEBUG:root:CSVDataTable._load: Loaded 4087 rows
+delete rows' number is 1
+find insert tmp:"playerID":"cy2554" 
+
+the match result is []
+update "nameLast": "DaVanon" into nameLast: "DaVanoncolllllll"
+
+2
+find DaVanoncolllllll 
+
+the match result is [OrderedDict([('playerID', 'davanje01'), ('birthYear', '1945'), ('birthMonth', '8'), ('birthDay', '21'), ('birthCountry', 'USA'), ('birthState', 'CA'), ('birthCity', 'Oceanside'), ('deathYear', ''), ('deathMonth', ''), ('deathDay', ''), ('deathCountry', ''), ('deathState', ''), ('deathCity', ''), ('nameFirst', 'Jerry'), ('nameLast', 'DaVanoncolllllll'), ('nameGiven', 'Frank Gerald'), ('weight', '175'), ('height', '71'), ('bats', 'R'), ('throws', 'R'), ('debut', '1969-04-11'), ('finalGame', '1977-05-04'), ('retroID', 'davaj101'), ('bbrefID', 'davanje01')]), OrderedDict([('playerID', 'davanje02'), ('birthYear', '1973'), ('birthMonth', '12'), ('birthDay', '8'), ('birthCountry', 'USA'), ('birthState', 'CA'), ('birthCity', 'San Diego'), ('deathYear', ''), ('deathMonth', ''), ('deathDay', ''), ('deathCountry', ''), ('deathState', ''), ('deathCity', ''), ('nameFirst', 'Jeff'), ('nameLast', 'DaVanoncolllllll'), ('nameGiven', 'Jeffrey Graham'), ('weight', '185'), ('height', '72'), ('bats', 'B'), ('throws', 'R'), ('debut', '1999-09-07'), ('finalGame', '2007-09-30'), ('retroID', 'davaj001'), ('bbrefID', 'davanje02')])]
+
+Process finished with exit code 0
